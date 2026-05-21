@@ -19,7 +19,17 @@
 - Visual Studio Build Tools
 - GPT-SoVITS（GSV）
 ## Notes
-在下载仓库文件后自行配置nodejs：`npm install`
+准备工作：
+
+在下载仓库文件后在文件夹路径内自行配置nodejs：`npm install`
+
+新建model文件夹。在model文件夹内按照前端源码里`charactersConfig`常量内角色名（可修改但必须一致），新建每一个角色的模型文件夹,里面放置衣服建模文件夹（推荐Bestdori上去提取）。
+例：`model/anon`
+
+新建`model/_mtn_emp`文件夹。和上面一样的方法，然后把角色的动作表情放在里面（推荐Bestdori上去提取）。
+例：`model/_mtn_emp/anon`
+
+新建`GPT-SoVITS`文件夹（如果你需要的话。然后下面是建议的GSV使用方式）。
 
 如果你要继续使用GSV的TTS，建议的方案：
 
