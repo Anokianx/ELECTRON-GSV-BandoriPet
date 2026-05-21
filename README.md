@@ -19,6 +19,8 @@
 - Visual Studio Build Tools
 - GPT-SoVITS（GSV）
 ## Notes
+在下载仓库文件后自行配置nodejs：`npm install`
+
 如果你要继续使用GSV的TTS，建议的方案：
 
 ①在项目文件夹`GPT-SoVITS`自行添加你自己的GSV运行库。
